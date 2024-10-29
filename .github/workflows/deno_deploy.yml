@@ -13,8 +13,8 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     permissions:
-      id-token: write # Needed for auth with Deno Deploy
-      contents: read # Needed to clone the repository
+      id-token: write # Needed for auth with Deno Deploy1
+      contents: read # Needed to clone the repository1
 
     steps:
       - name: 拉取代码
